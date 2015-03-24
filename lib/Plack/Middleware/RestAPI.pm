@@ -10,7 +10,7 @@ use HTTP::Exception '4XX';
 
 =head1 NAME
 
-Plack::Middleware::RestAPI - Perl PSGI middleware that just call GET, PUT, POST, DELETE from mounted class.
+Plack::Middleware::RestAPI - DEPRECATED use Plack::App::REST instead
 
 =head1 VERSION
 
@@ -40,6 +40,8 @@ our $VERSION = '0.01';
 	}
 
 =head1 DESCRIPTION
+
+This modul is DEPRECATED use Plack::App::REST instead.
 
 Plack::Middleware::RestAPI is simple middleware that call requested method directly from mounted class.
 
